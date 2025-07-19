@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classroom Seating</title>
+  <link rel="stylesheet" href="assets\style.css" />
+</head>
+<body>
+  <h1>Classroom Seating Arrangement</h1>
+  <button id="darkToggle"> ⏳ </button>
+  <div class="input-form">
+    <input type="text" id="studentName" placeholder="Enter student name" />
+    <select id="gender">
+      <option value="boy">Boy</option>
+      <option value="girl">Girl</option>
+    </select>
+    <button onclick="addStudent()">Add Student</button>
+  </div>
+  <div class="seating-area">
+    <div class="side" id="boysSection">
+      <h2>Boys</h2>
+      <div id="boysRows"></div>
+    </div>
+    <div class="side" id="girlsSection">
+      <h2>Girls</h2>
+      <div id="girlsRows"></div>
+    </div>
+  </div>
+  <script src="assets\script.js"></script>
+</body>
+</html>
